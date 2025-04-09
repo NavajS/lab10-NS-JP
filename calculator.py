@@ -5,19 +5,17 @@
 import math
 
 def square_root(a):
-    try:
-        return math.sqrt(a)
-    except ValueError as e:
-        print(e)
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
 
 def logarithm(a, b):
-    try:
-        return math.log(b) / math.log(a)
-    except ValueError as e:
-        print(e)
+    if a <= 0 or b <= 0:
+        raise ValueError
+    return math.log(b) / math.log(a)
         #use math library + raise ValueError
 
 import math
@@ -32,10 +30,9 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    try:
-        return b / a
-    except ZeroDivisionError as e:
-        print(e)
+    if a == 0:
+        raise ZeroDivisionError
+    return a / b
 
 
 def exp(a, b):
