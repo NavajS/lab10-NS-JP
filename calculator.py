@@ -1,11 +1,6 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-<<<<<<< HEAD
-# First example
+# https://github.com/NavajS/lab10-NS-JP
+# Partner 1: Jenish Patel
+# Partner 2: Navaj Sivakumar
 =======
 import math
 
