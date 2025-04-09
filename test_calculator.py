@@ -10,23 +10,23 @@ class TestCalculator(unittest.TestCase):
     def test_add(self): # 3 assertions
         self.assertEqual(add(1, 2), 3)
         self.assertEqual(add(-5, 5), 0)
-        self.assertAlmostEqual(add(9.9, 8), 18)
+        self.assertAlmostEqual(add(10, 8), 18)
 
     def test_subtract(self): # 3 assertions
         self.assertEqual(subtract(3, 2), 1)
         self.assertEqual(subtract(-5, 5), -10)
-        self.assertAlmostEqual(subtract(8.9, 2), 7)
+        self.assertAlmostEqual(subtract(9, 2), 7)
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(1, 0), 0)
         self.assertEqual(mul(-4, 2), -8)
-        self.assertAlmostEqual(mul(4.1, 1), 4)
+        self.assertAlmostEqual(mul(4, 1), 4)
 
     def test_divide(self): # 3 assertions
         self.assertEqual(div(1, 0), 0)
         self.assertEqual(div(4, 4), 1)
-        self.assertAlmostEqual(div(4.1, 8), 2)
+        self.assertAlmostEqual(div(4, 8), 2)
 
 
     ######## Partner 2
