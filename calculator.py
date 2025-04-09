@@ -6,16 +6,16 @@ import math
 
 def square_root(a):
     try:
-        math.sqrt(a)
+        return math.sqrt(a)
     except ValueError as e:
         print(e)
 
 def hypotenuse(a, b):
-    math.hypot(a, b)
+    return math.hypot(a, b)
 
 def logarithm(a, b):
     try:
-        math.log(b) / math.log(a)
+        return math.log(b) / math.log(a)
     except ValueError as e:
         print(e)
         #use math library + raise ValueError
@@ -23,20 +23,20 @@ def logarithm(a, b):
 import math
 
 def add(a, b):
-    a + b
+    return a + b
 
 def subtract(a, b):
-    a - b
+    return a - b
 
 def mul(a, b):
-    a * b
+    return a * b
 
 def div(a, b):
     try:
-        b / a
+        return b / a
     except ZeroDivisionError as e:
         print(e)
 
 
 def exp(a, b):
-    a ** b
+    return a ** b
