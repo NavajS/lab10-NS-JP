@@ -4,9 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-<<<<<<< HEAD
-# First example
-=======
 import math
 
 def square_root(a):
@@ -24,10 +21,6 @@ def logarithm(a, b):
     except ValueError as e:
         print(e)
         #use math library + raise ValueError
-
->>>>>>> 7dedaea0adbe3bea988e751e63348f1ff3303a50
-
-import math
 
 def add(a, b):
     a + b
