@@ -1,3 +1,7 @@
+# https://github.com/NavajS/lab10-NS-JP
+# Partner 1: Jenish Patel
+# Partner 2: Navaj Sivakumar
+
 import unittest
 from calculator import *
 
