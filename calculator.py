@@ -1,7 +1,7 @@
 # https://github.com/NavajS/lab10-NS-JP
 # Partner 1: Jenish Patel
 # Partner 2: Navaj Sivakumar
-=======
+
 import math
 
 def square_root(a):
@@ -19,8 +19,6 @@ def logarithm(a, b):
     except ValueError as e:
         print(e)
         #use math library + raise ValueError
-
->>>>>>> 7dedaea0adbe3bea988e751e63348f1ff3303a50
 
 import math
 
